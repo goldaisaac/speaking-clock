@@ -35,11 +35,15 @@ To get started with the Speaking Clock Application, follow these steps:
 
 To use the Speaking Clock Application, follow these steps:
 
-1. Configure the application properties as needed.
+1. Clone this project.
 
-2. Implement the necessary logic to convert time to words in the service classes.
+2. Open Command prompt/Terminal at the root of this project.
 
-3. Run the application.
+3. Execute the below command.
+
+```
+mvn spring-boot:run
+```
 
 4. Access the API documentation using the Swagger UI.
 
