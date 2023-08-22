@@ -2,20 +2,11 @@ package com.demo.speakingclock.service.impl;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import java.time.Clock;
-import java.time.LocalDate;
-import java.time.LocalTime;
-import java.time.ZoneId;
-import java.time.ZoneOffset;
-
 import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
-import org.mockito.junit.MockitoJUnitRunner;
 
 import com.demo.speakingclock.service.TimeConverterService;
 
-@RunWith(MockitoJUnitRunner.class)
 class TimeConverterServiceImplTest {
 
 	@InjectMocks
